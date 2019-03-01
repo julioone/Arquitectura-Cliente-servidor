@@ -1,0 +1,8 @@
+distributed hash table implementada en python 2x usando libreria zmq formato de  ip y puerto <ip:port>
+primero se debe iniar primer nodo  que contendra todo el anillo.
+
+>python Nodo.py [IP]:[PORT]
+
+segundo nodo en adelante en el argv[2] sera el ip y el puerto del nodo que nos queremos conectar.
+>python Nodo.py [IP]:[PORT] [IPNODO]:[PORTNODO]
+
